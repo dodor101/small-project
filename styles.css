@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6c6b7;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+:root {
+  --main-bg-color: #bd3d00;
+  --text-color: #ffe082;
+  --secondary-color: #05d4fe;
+}
+/* Navigation Styles */
+.header {
+  background-color: var(--main-bg-color);
+  height: 120px;
+  width: 100vw;
+  padding: 1%;
+
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+ul {
+  position: relative;
+  list-style: none;
+  left: 60%;
+  width: fit-content;
+  bottom: 50%;
+}
+
+li {
+  display: inline-block;
+  margin: 0 6px;
+  margin-right: auto;
+}
+li a {
+  text-decoration: none;
+  color: lightcyan;
+  font-size: 2rem;
+}
+
+li a:hover {
+  color: var(--text-color);
+  transition: 3ms ease;
+}
+
+/* logo */
+#logo {
+  list-style: none;
+  position: relative;
+  background-color: #d9cfca;
+  width: fit-content;
+  top: 10%;
+  border-radius: 10px;
+  padding: 2px 20px;
+}
+span {
+  color: #75a6af;
+}
+
+/* Hero image section Styling */
+.hero-image {
+  height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://source.unsplash.com/random/?cats/');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left:1% ;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+width: 70%;
+margin-left: auto;
+margin-right:auto ;
+background-color: #f8a782;
+  border-radius: 20px;
+
+}
+.contact h3{
+ font-size: 30px;
+ color: #bd3d00;
+ margin-bottom: 10px;
+
+}
+.form{
+  display: flex;
+  justify-content: center;
+
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto ;
+  font-size: 24px;
+  background-color: #75a6af;
+  padding: 20px;
+  border-radius: 20px;
+
+
+}
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
